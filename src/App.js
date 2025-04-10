@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "https://deer-designer-backend.onrender.com:4000";
+const API = "https://deer-designer-backend.onrender.com";
 
 function App() {
   const [tickets, setTickets] = useState([]);
